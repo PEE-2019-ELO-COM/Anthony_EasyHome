@@ -22,6 +22,7 @@ Exemplo 1:
     root.mainloop()
 
 Exemplo 2: Para adicionar mais widgets à essa interface, como um botão "sair", poderíamos fazer:
+    
     class Application:
         def __init__(self, master=None):
             self.widget1 = Frame(master)
