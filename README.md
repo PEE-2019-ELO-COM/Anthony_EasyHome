@@ -36,9 +36,9 @@ Exemplo 2: Para adicionar mais widgets à essa interface, como um botão "sair",
             self.sair["command"] = self.widget1.quit
             self.sair.pack ()
 
-    root = Tk()
-    Application(root)
-    root.mainloop()
+        root = Tk()
+        Application(root)
+        root.mainloop()
 
 Exemplo 3: Para receber dados do usuário, usaríamos um código parecido com:
     from tkinter import *
@@ -103,9 +103,9 @@ Exemplo 3: Para receber dados do usuário, usaríamos um código parecido com:
                 self.mensagem["text"] = "Erro na autenticação"
 
 
-    root = Tk()
-    Application(root)
-    root.mainloop()
+        root = Tk()
+        Application(root)
+        root.mainloop()
 
 
 
