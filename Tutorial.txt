@@ -12,3 +12,5 @@ qual a marca de cimento e azuleijos, qual a área total do terreno e como os cô
 A terceira opção permitirá que o usuário adicione uma nova marca de algum dos parâmetros (Azuleijo, cimento, tipo de tijolo utilizado)
 Tanto a primeira quanto a segunda opção criarão um arquivo com um resumo do orçamento, detalhando dimensões e tipos de materiais utilizados
 e também com um código do orçamento final, que serviria como referência em caso de precisar atualizar esse orçamento.
+
+OBS: a linguagem utilizada será pyyhon e para a interface gráfica será utilizada o Tkinter
