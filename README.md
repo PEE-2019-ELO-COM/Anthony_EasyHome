@@ -130,17 +130,13 @@ Exemplo 3: Para receber dados do usuário, usaríamos um código parecido com:
 
 
 
-O menu principal terá 4 opções:
-- Novo orçamento
-- Adicionar uma nova marca de material
-- Sair
+O menu principal terá 4 "etapas":
+- Informar qual a área total da casa (Interna e externa) e a área da base
+- Selecionar o tipo de azuleijo, com a possibilidade de selecionar um total de 4 tipos diferentes de um total de 8 possibilidades.
+- Selecionar o tipo de tijolo, podendo selecionar um de um total de 8 tipos diferentes
+- Selecionar a marca de cimento que será utilizada, podendo escolher uma de um total de 4 possibilidades
+- Por fim, será exibido o valor estimado para a obra
 
 
-A terceira opção é autoexplicativa.
-A primeira opção é a principal do programa, onde será determinado quantos cômodos terão a construção, quantos andares,
-qual a marca de cimento e azuleijos, qual a área total do terreno e como os cômodos estarão divididos com relação à área ocupada.
-A segunda opção permitirá que o usuário adicione uma nova marca de algum dos parâmetros (Azuleijo, cimento, tipo de tijolo utilizado)
-Tanto a primeira quanto a segunda opção criarão um arquivo com um resumo do orçamento, detalhando dimensões e tipos de materiais utilizados
-e também com um código do orçamento final, que serviria como referência em caso de precisar atualizar esse orçamento.
 
 OBS: a linguagem utilizada será pyyhon e para a interface gráfica será utilizada o Tkinter
