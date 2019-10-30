@@ -132,7 +132,7 @@ Exemplo 3: Para receber dados do usuário, usaríamos um código parecido com:
 
 O menu principal terá 4 "etapas":
 - Informar qual a área total da casa (Interna e externa) e a área da base
-- Selecionar o tipo de azuleijo, com a possibilidade de selecionar um total de 4 tipos diferentes de um total de 8 possibilidades.
+- Selecionar o tipo de azuleijo, com a possibilidade de selecionar um total de 4 tipos diferentes de um total de 8 possibilidades, informando a área total ocupada por cada tipo
 - Selecionar o tipo de tijolo, podendo selecionar um de um total de 8 tipos diferentes
 - Selecionar a marca de cimento que será utilizada, podendo escolher uma de um total de 4 possibilidades
 - Por fim, será exibido o valor estimado para a obra
