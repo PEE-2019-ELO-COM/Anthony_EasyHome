@@ -124,5 +124,5 @@ O menu principal terá 4 "etapas":
 - Por fim, será exibido o valor estimado para a obra
 
 Um exemplo de utilização dele é demonstrado na figura a seguir:
-![Tela do programa](https://ibb.co/d7Fsf5X)
+![Tela do programa](https://i.screenshot.net/rkryzhg)
 
