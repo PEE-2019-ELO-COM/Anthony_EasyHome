@@ -1,0 +1,358 @@
+from tkinter import*
+
+janela=Tk()
+janela.title("EasyHome")
+
+class azulejo():
+    def __init__(self, areaA, preçoA):
+        self.areaA = areaA
+        self.preçoA = preçoA
+class tijolo():
+    def __init__(self,areaT,preçoT):
+        self.preçoT = preçoT
+        self.areaT = areaT
+class cimento():
+    def __init__(self,preçoC):
+        self.preçoC= preçoC
+
+
+def bt_click_erro_Azulejo1():
+    if ed411.get() != '1' and ed411.get() != '2' and ed411.get() != '3' and ed411.get() != '4' and ed411.get() != '5' and ed411.get() != '6' and ed411.get() != '7' and ed411.get() != '8':
+       resposta["text"]="Entrada(s) inválida(s)"
+    else:
+        resposta["text"]="O valor do orçamento é " + str(preçofinal)
+
+def bt_click_erro_Azulejo2():
+    if ed422.get() != '1' and ed422.get() != '2' and ed422.get() != '3' and ed422.get() != '4' and ed422.get() != '5' and ed422.get() != '6' and ed422.get() != '7' and ed422.get() != '8':
+        resposta["text"] = "Entrada(s) inválida(s)"
+    else:
+        resposta["text"] = "O valor do orçamento é " + str(preçofinal)
+
+def bt_click_erro_Azulejo3():
+    if ed433.get() != '1' and ed433.get() != '2' and ed433.get() != '3' and ed433.get() != '4' and ed433.get() != '5' and ed433.get() != '6' and ed433.get() != '7' and ed433.get() != '8':
+        resposta["text"] = "Entrada(s) inválida(s)"
+    else:
+        resposta["text"] = "O valor do orçamento é " + str(preçofinal)
+
+def bt_click_erro_Azulejo4():
+    if ed444.get() != '1' and ed444.get()!= '2' and ed444.get() != '3' and ed444.get() != '4' and ed444.get() != '5' and ed444.get() != '6' and ed444.get() != '7' and ed444.get() != '8':
+        resposta["text"] = "Entrada(s) inválida(s)"
+    else:
+        resposta["text"] = "O valor do orçamento é " + str(preçofinal)
+
+def bt_click_Tijolo():
+    if edt.get() != '1' and edt.get() != '2' and edt.get() != '3' and edt.get() != '4':
+       resposta["text"]="Entrada tijolo inválida"
+       return
+
+    if edc.get() != '1' and edc.get() != '2' and edc.get() != '3' and edc.get() != '4':
+       resposta["text"]="Entrada cimento inválida"
+       return
+
+    if ed41.get() != '1' and ed41.get() != '2' and ed41.get() != '3' and ed41.get() != '4'\
+        and ed41.get() != '5' and ed41.get() != '6' and ed41.get() != '7' and ed41.get() != '8':
+       resposta["text"]="Entrada azulejo 1 inválida"
+       return
+
+    if ed42.get() != '1' and ed42.get() != '2' and ed42.get() != '3' and ed42.get() != '4'\
+        and ed42.get() != '5' and ed42.get() != '6' and ed42.get() != '7' and ed42.get() != '8':
+       resposta["text"]="Entrada azulejo 2 inválida"
+       return
+
+    if ed43.get() != '1' and ed43.get() != '2' and ed43.get() != '3' and ed43.get() != '4'\
+        and ed43.get() != '5' and ed43.get() != '6' and ed43.get() != '7' and ed43.get() != '8':
+       resposta["text"]="Entrada azulejo 3 inválida"
+       return
+
+    if ed44.get() != '1' and ed44.get() != '2' and ed44.get() != '3' and ed44.get() != '4'\
+        and ed44.get() != '5' and ed44.get() != '6' and ed44.get() != '7' and ed44.get() != '8':
+       resposta["text"]="Entrada azulejo 4 inválida"
+       return
+
+    AreaExt = float(ed1.get())
+    AreaInt = float(ed2.get())
+    AreaBase = float(ed3.get())
+
+    AreaPreçoT = AreaBase + AreaExt
+    AreaPreçoC = AreaExt + AreaBase + AreaInt
+
+
+    preçotijolos = 0
+    preçoazulejos = 0
+    preçocimento = 0
+
+    if ed41.get() == '1':
+        preçoazulejos = preçoazulejos + (float(ed411.get()) / A1.areaA) * A1.preçoA/2
+
+    elif ed41.get() == '2':
+        preçoazulejos = preçoazulejos + (float(ed411.get()) / A2.areaA) * A2.preçoA/2
+
+    elif ed41.get() == '3':
+        preçoazulejos = preçoazulejos + (float(ed411.get()) / A3.areaA) * A3.preçoA/2
+
+    elif ed41.get() == '4':
+        preçoazulejos = preçoazulejos + (float(ed411.get()) / A4.areaA) * A4.preçoA/2
+
+    elif ed41.get() == '5':
+        preçoazulejos = preçoazulejos + (float(ed411.get()) / A5.areaA) * A5.preçoA/2
+
+    elif ed41.get() == '6':
+        preçoazulejos = preçoazulejos + (float(ed411.get()) / A6.areaA) * A6.preçoA/2
+
+    elif ed41.get() == '7':
+        preçoazulejos = preçoazulejos + (float(ed411.get()) / A7.areaA) * A7.preçoA/2
+
+    elif ed41.get() == '8':
+        preçoazulejos = preçoazulejos + (float(ed411.get()) / A8.areaA) * A8.preçoA/2
+
+
+
+    if ed42.get() == '1':
+        preçoazulejos = preçoazulejos + (float(ed422.get()) / A1.areaA) * A1.preçoA/2
+
+    elif ed42.get() == '2':
+        preçoazulejos = preçoazulejos + (float(ed422.get()) / A2.areaA) * A2.preçoA/2
+
+    elif ed42.get() == '3':
+        preçoazulejos = preçoazulejos + (float(ed422.get()) / A3.areaA) * A3.preçoA/2
+
+    elif ed42.get() == '4':
+        preçoazulejos = preçoazulejos + (float(ed422.get()) / A4.areaA) * A4.preçoA/2
+
+    elif ed42.get() == '5':
+        preçoazulejos = preçoazulejos + (float(ed422.get()) / A5.areaA) * A5.preçoA/2
+
+    elif ed42.get() == '6':
+        preçoazulejos = preçoazulejos + (float(ed422.get()) / A6.areaA) * A6.preçoA/2
+
+    elif ed42.get() == '7':
+        preçoazulejos = preçoazulejos + (float(ed422.get()) / A7.areaA) * A7.preçoA2/2
+
+    elif ed42.get() == '8':
+        preçoazulejos = preçoazulejos + (float(ed422.get()) / A8.areaA) * A8.preçoA/2
+
+    if ed43.get() == '1':
+        preçoazulejos = preçoazulejos + (float(ed433.get()) / A1.areaA) * A1.preçoA/2
+
+    elif ed43.get() == '2':
+        preçoazulejos = preçoazulejos + (float(ed433.get()) / A2.areaA) * A2.preçoA/2
+
+    elif ed43.get() == '3':
+        preçoazulejos = preçoazulejos + (float(ed433.get()) / A3.areaA) * A3.preçoA/2
+
+    elif ed43.get() == '4':
+        preçoazulejos = preçoazulejos + (float(ed433.get()) / A4.areaA) * A4.preçoA/2
+
+    elif ed43.get() == '5':
+        preçoazulejos = preçoazulejos + (float(ed433.get()) / A5.areaA) * A5.preçoA/2
+
+    elif ed43.get() == '6':
+        preçoazulejos = preçoazulejos + (float(ed433.get()) / A6.areaA) * A6.preçoA/2
+
+    elif ed43.get() == '7':
+        preçoazulejos = preçoazulejos + (float(ed433.get()) / A7.areaA) * A7.preçoA/2
+
+    elif ed43.get() == '8':
+        preçoazulejos = preçoazulejos + (float(ed433.get()) / A8.areaA) * A8.preçoA/2
+
+
+
+    if ed44.get() == '1':
+        preçoazulejos = preçoazulejos + (float(ed444.get()) / A1.areaA) * A1.preçoA/2
+
+    elif ed44.get() == '2':
+        preçoazulejos = preçoazulejos + (float(ed444.get()) / A2.areaA) * A2.preçoA/2
+
+    elif ed44.get() == '3':
+        preçoazulejos = preçoazulejos + (float(ed444.get()) / A3.areaA) * A3.preçoA/2
+
+    elif ed44.get() == '4':
+        preçoazulejos = preçoazulejos + (float(ed444.get()) / A4.areaA) * A4.preçoA/2
+
+    elif ed44.get() == '5':
+        preçoazulejos = preçoazulejos + (float(ed444.get()) / A5.areaA) * A5.preçoA/2
+
+    elif ed44.get() == '6':
+        preçoazulejos = preçoazulejos + (float(ed444.get()) / A6.areaA) * A6.preçoA/2
+
+    elif ed44.get() == '7':
+        preçoazulejos = preçoazulejos + (float(ed444.get()) / A7.areaA) * A7.preçoA/2
+
+    elif ed44.get() == '8':
+        preçoazulejos = preçoazulejos + (float(ed444.get()) / A8.areaA) * A8.preçoA/2
+
+
+
+    if edt.get() == '1':
+        preçotijolos = preçotijolos + (AreaPreçoT / t1.areaT) * t1.preçoT/2
+
+
+    elif edt.get() == '2':
+        preçotijolos = preçotijolos + (AreaPreçoT / t2.areaT) * t2.preçoT/2
+
+
+    elif edt.get() == '3':
+        preçotijolos = preçotijolos + (AreaPreçoT / t3.areaT) * t3.preçoT/2
+
+
+    elif edt.get() == '4':
+        preçotijolos = preçotijolos + (AreaPreçoT / t4.areaT) * t4.preçoT/2
+
+    if edc.get() == '1':
+        preçocimento = preçocimento + (AreaPreçoC / 4) * c1.preçoC/2
+
+    elif edc.get() == '2':
+        preçocimento = preçocimento + (AreaPreçoC / 4) * c2.preçoC/2
+
+    elif edc.get() == '3':
+        preçocimento = preçocimento + (AreaPreçoC / 4) * c3.preçoC/2
+
+    elif edc.get() == '4':
+        preçocimento = preçocimento + (AreaPreçoC / 4) * c4.preçoC/2
+
+    preçofinal = preçocimento + preçotijolos + preçoazulejos
+    resposta["text"] = "O valor do orçamento é " + ("%.2f" % preçofinal)
+
+
+A1=azulejo(0.1705, 29.90) #revestimento de parede Artens
+A2=azulejo(0.17, 33.90) #revestimento de parede Compostela cinza
+A3=azulejo(0.1824, 21.90) #revestimento de parede escama white HD
+A4=azulejo(0.1881, 21.90) #revestimento de parede brisa
+A5=azulejo(0.1824, 18.49) #revestimento de parede Isabela Matte
+A6=azulejo(0.1824, 19.69) #revestimento de parede Bruma
+A7=azulejo(0.1824, 19.99) #revestimento de parede Elegance Bege
+A8=azulejo(0.1881, 13.41) #revestimento de parede bold Styllus marrom RochaForte
+
+t1=tijolo(0.161,9.10) #Bloco Cerâmico avermelhado
+t2=tijolo(0.171,12.30) #Bloco Cerâmico avermelhado fino
+t3=tijolo(0.171,7.5) #Tijolo Pó de Mico
+t4=tijolo(0.3125,17.22) #Tijolo Modular Bauth
+
+c1=cimento(18.89) #Cimento CP2 todas as obras 50kg Votoran
+c2=cimento(16.99) #Cimento CP III 40 RS CSN 50 kgs
+c3=cimento(20.99) #Cimento obras estruturais Votoran
+c4=cimento(23.80) #Cimento CP II cinza Nacional
+
+
+text1=Label(janela, text="EasyHome", font="comicsans 20 bold")
+text1.grid(row=0,column=2)
+
+lb1=Label(janela,text="Insira a área externa total da casa: ")
+lb1.grid(row=1,column=0)
+ed1=Entry(janela,) #área externa total da casa
+ed1.grid(row=1,column=1)
+lb2=Label(janela,text="Insira a área interna total da casa: ")
+lb2.grid(row=2,column=0)
+ed2=Entry(janela,) #Área interna total da casa
+ed2.grid(row=2,column=1)
+lb3=Label(janela,text="Insira a área da base da casa: ")
+lb3.grid(row=3,column=0)
+ed3=Entry(janela,) #área de base da casa
+ed3.grid(row=3,column=1)
+
+lb4=Label(janela,text="Selecione os modelos de azulejo que serão usados: ")
+lb4.grid(row=4,column=0)
+az1=Label(janela,text="Código 1: Revestimento de parede Artens")
+az1.grid(row=5,column=5)
+
+az2=Label(janela,text="Código 2: Revestimento de parede Compostela cinza")
+az2.grid(row=6,column=5)
+
+az3=Label(janela,text="Código 3: Revestimento de parede Escama White HD")
+az3.grid(row=7,column=5)
+
+az4=Label(janela,text="Código 4: Revestimento de parede Brisa")
+az4.grid(row=8,column=5)
+
+az5=Label(janela,text="Código 5: Revestimento de parede Isabela Matte")
+az5.grid(row=5,column=6)
+
+az6=Label(janela,text="Código 6: Revestimento de parede Bruma")
+az6.grid(row=6,column=6)
+
+az7=Label(janela,text="Código 7: Revestimento de parede Elegance Bege")
+az7.grid(row=7,column=6)
+
+az8=Label(janela,text="Código 8: Revestimento de parede Bold Styllus marrom RochaForte")
+az8.grid(row=8,column=6)
+
+txt1=Label(janela, text="Azulejo 1.")
+txt1.grid(row=5,column=0)
+lb41=Label(janela,text="Área ocupada pelo azulejo 1: ")
+lb41.grid(row=9, column=0)
+ed41=Entry(janela,) #código do azulejo 1
+ed41.grid(row=5,column=1)
+ed411=Entry(janela,)  #área ocupada pelo azulejo 1
+ed411.grid(row=9,column=1)
+
+
+txt2=Label(janela,text="Azulejo 2.")
+txt2.grid(row=6,column=0)
+lb42=Label(janela,text="Área ocupada pelo azulejo 2: ")
+lb42.grid(row=10, column=0)
+ed42=Entry(janela,) #código do azulejo 2
+ed42.grid(row=6,column=1)
+ed422=Entry(janela,)  #área ocupada pelo azulejo 2
+ed422.grid(row=10,column=1)
+
+
+txt3=Label(janela,text="Azulejo 3.")
+txt3.grid(row=7,column=0)
+lb43=Label(janela,text="Área ocupada pelo azulejo 3: ")
+lb43.grid(row=11, column=0)
+ed43=Entry(janela,) #código do azulejo 3
+ed43.grid(row=7,column=1)
+ed433=Entry(janela,) #área ocupada pelo azulejo 3
+ed433.grid(row=11,column=1)
+
+
+txt4=Label(janela,text="Azulejo 4.")
+txt4.grid(row=8,column=0)
+lb44=Label(janela,text="Área ocupada pelo azulejo 4: ")
+lb44.grid(row=12, column=0)
+ed44=Entry(janela,) #código do azulejo 4
+ed44.grid(row=8,column=1)
+ed444=Entry(janela,) #área ocupada pelo azulejo 4
+ed444.grid(row=12,column=1)
+
+lb5=Label(janela,text="Selecione o tijolo que será utilizado: ")
+lb5.grid(row=13,column=0)
+edt=Entry(janela,)#tipo de tijolo a ser utilizado
+edt.grid(row=13,column=1)
+
+
+TT1=Label(janela,text="Código 1: Tijolo Cerâmico avermelhado ")
+TT1.grid(row=13,column=5)
+TT2=Label(janela,text="Código 2: Tijolo Cerâmico avermelhado fino ")
+TT2.grid(row=14,column=5)
+TT3=Label(janela,text="Código 3: Tijolo Pó de Mico ")
+TT3.grid(row=13,column=6)
+TT4=Label(janela,text="Código 4: Tijolo Modular Bauth ")
+TT4.grid(row=14,column=6)
+
+
+lb6=Label(janela,text="Selecione a marca do cimento que será utilizada: ")
+lb6.grid(row=16,column=0)
+edc=Entry(janela,) #marca de cimento a ser utilizada
+edc.grid(row=16,column=1)
+
+CC1=Label(janela, text="Código 1: Cimento CP2 50kg Votoran Todas as Obras ")
+CC1.grid(row=16,column=5)
+CC2=Label(janela, text="Código 2: Cimento CP3 50kg CSN ")
+CC2.grid(row=17,column=5)
+CC3=Label(janela, text="Código 3: Cimento 50kg Obras Estruturais Votoran ")
+CC3.grid(row=16,column=6)
+CC4=Label(janela, text="Código 4: Cimento Cinza Nacional CP2 50kgs  ")
+CC4.grid(row=17,column=6)
+
+
+bt=Button(text="Estimar orçamento",command=bt_click_Tijolo)
+bt.grid(row=19,column=2)
+
+resposta=Label(janela,text="Valor final da estimativa de orçamento")
+resposta.grid(row=21,column=2)
+
+
+janela.geometry("1280x720+100+100")
+janela.mainloop()
+
