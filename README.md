@@ -2,7 +2,7 @@
 
 ## Objetivo do programa
 
-Fará uma estimativa de orçamento para a construção de qualquer prédio/residência, baseado em dimensões e materiais desejados.
+Fará uma estimativa de orçamento para a construção de qualquer prédio/residência, baseado em dimensões e materiais desejados, tendo como grande vantagem a simplicidade existente para manipular o programa.
 A motivação é uma obra que ainda está em andamento na minha casa que tomou muito tempo do meu pai pra determinar essa estimativa.
 A linguagem utilizada será python e para a interface gráfica será utilizada a biblioteca Tkinter.
 
