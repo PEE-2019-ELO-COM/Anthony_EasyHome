@@ -1,13 +1,13 @@
 # Anthony_EasyHome
 
-<h4> Objetivo do programa
+## Objetivo do programa
 
 Fará uma estimativa de orçamento para a construção de qualquer prédio/residência, baseado em dimensões e materiais desejados.
 A motivação é uma obra que ainda está em andamento na minha casa que tomou muito tempo do meu pai pra determinar essa estimativa.
 A linguagem utilizada será python e para a interface gráfica será utilizada a biblioteca Tkinter.
 
 
-<h4>Tutorial:
+## Tutorial:
 
 A começar, a interface gráfica que será utilizada é a Tkinter, que já vem, na maioria das vezes, nas instalações Python.
 Para utilizá-la, é necessário importá-la, através do comando:
@@ -115,7 +115,7 @@ Exemplo 3: Para receber dados do usuário, usaríamos um código parecido com:
 
 
 
-<h4> Recursos do projeto
+## Recursos do projeto
 O menu principal terá 4 "etapas":
 - Informar qual a área total da casa (Interna e externa) e a área da base
 - Selecionar o tipo de azuleijo, com a possibilidade de selecionar um total de 4 tipos diferentes de um total de 8 possibilidades, informando a área total ocupada por cada tipo
