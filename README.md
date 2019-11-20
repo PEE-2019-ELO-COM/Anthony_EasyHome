@@ -131,8 +131,8 @@ Um exemplo de utilização dele é demonstrado na figura a seguir:
     ![Azulejos](https://i.imgur.com/prEdkqj.png)
     
 #Tijolos
-    ![Tijolos](https://www.imagemhost.com.br/image/bxALS)
+    ![Tijolos](https://i.imgur.com/9YSPffX.png)
     
 #Cimentos
-    ![Cimentos](https://www.imagemhost.com.br/image/bxIWI)
+    ![Cimentos](https://i.imgur.com/zyFxVuV.png)
 
