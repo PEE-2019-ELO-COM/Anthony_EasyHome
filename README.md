@@ -126,3 +126,13 @@ O menu principal terá 4 "etapas":
 Um exemplo de utilização dele é demonstrado na figura a seguir:
 ![Tela do programa](https://i.screenshot.net/rkryzhg)
 
+## Produtos disponíveis no programa
+#Azulejos
+    ![Azulejos](https://www.imagemhost.com.br/image/bx6wY)
+    
+#Tijolos
+    ![Tijolos](https://www.imagemhost.com.br/image/bxALS)
+    
+#Cimentos
+    ![Cimentos](https://www.imagemhost.com.br/image/bxIWI)
+
