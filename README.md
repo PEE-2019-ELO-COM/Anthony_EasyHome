@@ -127,12 +127,12 @@ Um exemplo de utilização dele é demonstrado na figura a seguir:
 ![Tela do programa](https://i.screenshot.net/rkryzhg)
 
 ## Produtos disponíveis no programa
-#Azulejos
+# Azulejos
     ![Azulejos](https://i.imgur.com/prEdkqj.png)
     
-#Tijolos
+# Tijolos
     ![Tijolos](https://i.imgur.com/9YSPffX.png)
     
-#Cimentos
+# Cimentos
     ![Cimentos](https://i.imgur.com/zyFxVuV.png)
 
