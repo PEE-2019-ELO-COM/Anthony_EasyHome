@@ -128,7 +128,7 @@ Um exemplo de utilização dele é demonstrado na figura a seguir:
 
 ## Produtos disponíveis no programa
 #Azulejos
-    ![Azulejos](https://ap.imagensbrasil.org/image/azuleijos-readme.rllEBU)
+    ![Azulejos](https://i.imgur.com/prEdkqj.png)
     
 #Tijolos
     ![Tijolos](https://www.imagemhost.com.br/image/bxALS)
