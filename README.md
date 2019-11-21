@@ -111,8 +111,49 @@ Exemplo 3: Para receber dados do usuário, usaríamos um código parecido com:
         root = Tk()
         Application(root)
         root.mainloop()
+        
+Para utilização do programa:
+1. No Windows 10:
+    - Instalar uma IDE python3 como o PyCharm através do link:
+         https://www.jetbrains.com/pycharm/download/
+    - A biblioteca tkinter já vem instalada
+    - Em seguida, no terminal do PyCharm, deve-se navegar até a pasta onde está o arquivo .py,tomando como base o diretório que está presente no terminal , usando os comandos:
+        Entrar em um diretório:
+            > ..
+        Sair de um diretório:
+            > cd ..
+    - Ao entrar no diretório em que está o arquivo .py, executá-lo através do comando:
+            >python Trabalho_provisorio.py
+2. No linux:
+    - Consulte se o Python já está instalado, através do comando
+        $ python --version
+                ou
+        $ python3 --version
+    - Se o Python 2 versão 2.7+ ou Python 3 versão 3.4+ ou posterior não estiver instalado, instale o Python com o gerenciador de pacote da distribuição. O comando e o nome do pacote varia de:
+        No derivados do Debian, como Ubuntu, use apt. Verifique no repositório apt as versões do Python disponíveis para você. Depois, execute um comando semelhante ao seguinte, substituindo o nome do pacote correto:
 
+            $ sudo apt-get install python3
+        
+        No Red Hat e derivados, use yum. Verifique no repositório yum as versões do Python disponíveis para você. Depois, execute um comando semelhante ao seguinte, substituindo o nome do pacote correto:
 
+            $ sudo yum install python36
+        
+        No SUSE e derivados, use o zypper. Verifique no repositório as versões do Python disponíveis para você. Depois, execute um comando semelhante ao seguinte, substituindo o nome do pacote correto:
+
+            $ sudo zypper install python3
+    
+        Abra um prompt de comando ou shell e execute o comando a seguir para verificar se o Python foi instalado corretamente.
+            
+            $ python3 --version
+       
+    - Instale a biblioteca tkinter através do comando:
+            
+            $apt-get install python-tk
+       
+    - Executar o programa no terminal através do comando
+            $python3 Trabalho_provisorio.py
+    
+    A maioria das instalações Linux já vêm com a biblioteca Tkinter instalada
 
 
 ## Recursos do projeto
