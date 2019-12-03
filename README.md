@@ -165,7 +165,7 @@ O menu principal terá 4 "etapas":
 - Por fim, será exibido o valor estimado para a obra
 
 Um exemplo de utilização dele é demonstrado na figura a seguir:
-![Tela do programa](https://prnt.sc/q5jidl)
+![Tela do programa](https://i.imgur.com/7o1XY0S.png)
 
 ## Produtos disponíveis no programa
 Azulejos:
